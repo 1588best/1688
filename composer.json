@@ -1,0 +1,30 @@
+{
+    "name": "otcommerce/otapiphpclient",
+    "type": "project",
+    "description": "Open Trade Commerce API for marketplaces",
+    "keywords": ["otapi","api","taobao","1688","aliexpress","ebay"],
+    "homepage": "https://github.com/OTCommerce/otapiphpclient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksei S. Mikhaltsov",
+            "email": "am@opentao.net"
+        }
+    ],
+    "version": "1.1.9",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "nesbot/carbon": "^2",
+        "halaxa/json-machine": "^0.7",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "OtApiClient\\": "src/"
+        }
+    }
+}
